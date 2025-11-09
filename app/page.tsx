@@ -8,7 +8,7 @@ export default function Home() {
         <div className={styles.headerContent}>
           <div className={styles.logoContainer}>
             <Image
-              src="/LPG-logo.webp"
+              src="/lpg-logo.webp"
               alt="Lancaster Pet Grooming Logo"
               width={100}
               height={100}
