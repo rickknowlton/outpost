@@ -17,12 +17,21 @@ export default function Home() {
             />
           </div>
           <div className={styles.contactInfo}>
+            <div className={styles.phone}>
+              <a href="tel:7175371005">(717) 537 - 1005</a>
+            </div>
             <div className={styles.address}>
               146 College Avenue<br />
               Lancaster, PA 17603
             </div>
-            <div className={styles.phone}>
-              <a href="tel:7175371005">(717) 537 - 1005</a>
+            <div className={styles.directions}>
+              <a 
+                href="https://maps.google.com/?q=146+College+Avenue,+Lancaster,+PA+17603"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Directions
+              </a>
             </div>
           </div>
         </div>
