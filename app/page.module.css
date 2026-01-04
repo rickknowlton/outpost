@@ -11,14 +11,12 @@
   width: 100%;
   background: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem 1rem;
-  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
 }
 
 @media (max-width: 768px) {
   .header {
     padding: 1rem;
-    margin-bottom: 1rem;
   }
 }
 
@@ -31,31 +29,9 @@
   gap: 2rem;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  padding: 0 1rem 2rem;
-}
-
 .logoContainer {
   display: flex;
   align-items: center;
-}
-
-.logoPlaceholder {
-  text-align: left;
-}
-
-.logoText {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #2c3e50;
-  letter-spacing: 0.05em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -81,109 +57,215 @@
 
 @media (max-width: 768px) {
   .contactInfo {
-    gap: 0;
+    gap: 0.25rem;
   }
 }
 
 .address {
-  font-size: 0.95rem;
-  color: #2c3e50;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {
   .address {
-    display: none;
+    font-size: 0.8rem;
   }
 }
 
 .phone {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #3d3d3d;
 }
 
 .phone a {
-  color: #2c3e50;
+  color: #3d3d3d;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .phone a:hover {
-  color: #3498db;
-}
-
-.directions {
-  font-size: 0.9rem;
-  margin-top: .25rem;
-}
-
-.directions a {
-  color: #3498db;
-  text-decoration: none;
-  transition: color 0.2s ease;
-  font-weight: 600;
-}
-
-.directions a:hover {
-  color: #2980b9;
-  text-decoration: underline;
-}
-
-.schedulerContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  padding: 1rem;
-}
-
-.schedulerWrapper {
-  width: 100%;
-  height: 800px;
-  position: relative;
-}
-
-.schedulerIframe {
-  border-radius: 8px;
+  color: #6ba944;
 }
 
 @media (max-width: 768px) {
-  .headerContent {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .contactInfo {
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  .logoText {
-    font-size: 1.75rem;
-  }
-
-  .schedulerWrapper {
-    height: 700px;
-  }
-
-  .container {
-    gap: 2rem;
-  }
-
   .phone {
     font-size: 0.95rem;
-    white-space: nowrap;
   }
+}
 
-  .directions {
-    font-size: 0.85rem;
-    margin-top: 0.5rem;
+/* Hero Section */
+.hero {
+  width: 100%;
+  background: linear-gradient(135deg, #e8e8e8 0%, #f5f5f5 100%);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1.5rem;
   }
+}
+
+.heroContent {
+  max-width: 800px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3d3d3d;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+}
+
+.heroText {
+  font-size: 1.25rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .heroText {
+    font-size: 1.1rem;
+  }
+}
+
+.heroSubtext {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heroSubtext p {
+  font-size: 1.1rem;
+  color: #3d3d3d;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .heroSubtext p {
+    font-size: 1rem;
+  }
+}
+
+/* Contact Section */
+.contactSection {
+  width: 100%;
+  background: #3d3d3d;
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contactSection {
+    padding: 3rem 1.5rem;
+  }
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .contactTitle {
+    font-size: 1.5rem;
+  }
+}
+
+.guildName {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #e8e8e8;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .guildName {
+    font-size: 1.2rem;
+  }
+}
+
+.contactDetails {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  .contactDetails {
+    font-size: 1rem;
+  }
+}
+
+.contactPhone {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contactPhone a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactPhone a:hover {
+  color: #6ba944;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .socialLinks {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.socialLink {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #6ba944;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.socialLink:hover {
+  background: #5a9038;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 

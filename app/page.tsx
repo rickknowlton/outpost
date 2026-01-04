@@ -8,48 +8,63 @@ export default function Home() {
         <div className={styles.headerContent}>
           <div className={styles.logoContainer}>
             <Image
-              src="/lpg-logo.webp"
-              alt="Lancaster Pet Grooming Logo"
-              width={100}
-              height={100}
+              src="/LCBG-green-logo.png"
+              alt="Lancaster County Brewers Guild Logo"
+              width={120}
+              height={120}
               priority
               className={styles.logo}
             />
           </div>
           <div className={styles.contactInfo}>
             <div className={styles.phone}>
-              <a href="tel:7175371005">(717) 537 - 1005</a>
+              <a href="tel:7175892337">(717) 589-BEER</a>
             </div>
             <div className={styles.address}>
-              146 College Avenue<br />
-              Lancaster, PA 17603
-            </div>
-            <div className={styles.directions}>
-              <a 
-                href="https://maps.google.com/?q=146+College+Avenue,+Lancaster,+PA+17603"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Get Directions
-              </a>
+              284 S Reading Rd<br />
+              Ephrata, PA 17522
             </div>
           </div>
         </div>
       </header>
-      <div className={styles.container}>
-
-        <div className={styles.schedulerContainer}>
-          <div className={styles.schedulerWrapper}>
-            <iframe
-              src="https://booking.moego.pet/ol/LancasterPetGrooming125672/landing?utm_medium=embed"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              title="Online booking"
-              scrolling="no"
-              className={styles.schedulerIframe}
-            />
+      
+      <div className={styles.hero}>
+        <div className={styles.heroContent}>
+          <h2 className={styles.heroTitle}>Site Maintenance in Progress</h2>
+          <p className={styles.heroText}>
+            We're currently updating our website to serve you better. 
+            Our new site will be launching soon with exciting features and information 
+            about Lancaster County's rich brewing tradition.
+          </p>
+          <div className={styles.heroSubtext}>
+            <p>
+              Lancaster has a rich tradition of brewing beer, dating back to the 1700's. 
+              We aim to keep that tradition and culture going for years to come.
+            </p>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.contactSection}>
+        <h3 className={styles.contactTitle}>CONTACT</h3>
+        <h4 className={styles.guildName}>LANCASTER COUNTY BREWERS GUILD</h4>
+        <div className={styles.contactDetails}>
+          <p>284 S Reading Rd</p>
+          <p>Ephrata, PA 17522</p>
+          <p className={styles.contactPhone}>
+            <a href="tel:7175892337">(717) 589-BEER</a>
+          </p>
+        </div>
+        <div className={styles.socialLinks}>
+          <a href="https://www.instagram.com/lancasterbreweries/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/LancasterBrewersGuild" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            Facebook
+          </a>
+          <a href="mailto:info@lancasterbreweries.org/" className={styles.socialLink}>
+            Email
+          </a>
         </div>
       </div>
     </main>
