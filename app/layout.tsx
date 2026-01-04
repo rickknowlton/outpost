@@ -3,8 +3,8 @@ import { Analytics } from "@vercel/analytics/next"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Lancaster Pet Grooming',
-  description: 'Professional pet grooming services in Lancaster',
+  title: 'Lancaster County Brewers Guild - Site Maintenance',
+  description: 'Lancaster County Brewers Guild - Celebrating the rich brewing tradition of Lancaster County since the 1700s',
 }
 
 export default function RootLayout({
