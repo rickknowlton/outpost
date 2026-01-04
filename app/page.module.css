@@ -65,6 +65,7 @@
   font-size: 0.9rem;
   color: #666;
   line-height: 1.4;
+  font-family: "poppins", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -77,6 +78,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: #3d3d3d;
+  font-family: "poppins", sans-serif;
 }
 
 .phone a {
@@ -86,7 +88,7 @@
 }
 
 .phone a:hover {
-  color: #6ba944;
+  color: #51d64f;
 }
 
 @media (max-width: 768px) {
@@ -122,6 +124,9 @@
   color: #3d3d3d;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  font-family: "din-condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 @media (max-width: 768px) {
@@ -135,6 +140,8 @@
   color: #666;
   line-height: 1.8;
   margin-bottom: 2rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -155,6 +162,8 @@
   color: #3d3d3d;
   line-height: 1.8;
   font-style: italic;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -182,11 +191,13 @@
 }
 
 .contactTitle {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   margin-bottom: 1rem;
   color: white;
+  font-family: "din-condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -196,11 +207,13 @@
 }
 
 .guildName {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 2rem;
   color: #e8e8e8;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
+  font-family: "din-condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -214,6 +227,8 @@
   font-size: 1.1rem;
   line-height: 1.8;
   color: #e8e8e8;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -224,8 +239,9 @@
 
 .contactPhone {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  font-family: "poppins", sans-serif;
 }
 
 .contactPhone a {
@@ -235,7 +251,7 @@
 }
 
 .contactPhone a:hover {
-  color: #6ba944;
+  color: #51d64f;
 }
 
 .socialLinks {
@@ -254,17 +270,19 @@
 .socialLink {
   display: inline-block;
   padding: 0.75rem 2rem;
-  background: #6ba944;
+  background: #46c35b;
   color: white;
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
 }
 
 .socialLink:hover {
-  background: #5a9038;
+  background: #56bb54;
   transform: translateY(-2px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
