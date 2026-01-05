@@ -62,7 +62,7 @@ export default function Home() {
           <a href="https://www.facebook.com/LancasterBrewersGuild" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
             Facebook
           </a>
-          <a href="mailto:info@lancasterbreweries.org/" className={styles.socialLink}>
+          <a href="mailto:cheers@lancasterbreweries.org" className={styles.socialLink}>
             Email
           </a>
         </div>
